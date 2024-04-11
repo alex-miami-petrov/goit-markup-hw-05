@@ -437,9 +437,8 @@
 
     <footer class="footer">
       
-      </div>
+      <!-- </div> -->
       <div class="footer-container">
-        <!-- <div class="footer-wrapper"> -->
         <div class="footer-logo-wrapper">
           <a class="footer-logo" href="./index.html"
             >Web<span class="studio-f">Studio</span></a
@@ -483,10 +482,30 @@
             </li>
           </ul>
         </div>
-        <!-- </div> -->
+        <div class="footer-subscribe">
+          <p class="subscribe-title">Subscribe</p>
+        
+         <!-- <div class="ftr-subs-container"> -->
+          <form class="ftr-subs-form">
+           <label for="email" class="ftr-label">
+            <input type="email" class="ftr-input" name="user_email" id="email" placeholder="E-mail" required>
+           </label>
+           
+            <button type="submit" class="ftr-btn">Subscribe
+              <svg class="icon-icon-x" width="24" height="24">
+              <use href="./images/icons.svg#icon-subs-icon" ></use>
+            </svg>
+            </button>
+            
+          
+          </form>
+          <!-- </div> -->
+        </div>
+       
+        
       </div>
     </footer>
-    <div class="backdrop visually-hidden">
+    <div class="backdrop">
         <div class="modal">
           <button type="button" class="modal-close-btn">
             <svg class="icon-icon-x" width="8" height="8">
@@ -531,10 +550,14 @@
             </div>
             </div>
             <div class="modal-field">
-              <label for="" class="modal-label">Comment</label>
+              <label for="user-comment" class="modal-label">Comment</label>
               <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-text"></textarea>
             </div>
-            <button type="submit">Send</button>
+            <label class="modal-checkbox">
+            <input type="checkbox" name="Privacy" value="Privacy" required />
+             <p class="checkbox-text">I accept the terms and conditions of the <span class="privacy-span">Privacy Policy</span></p>
+            </label>
+            <button type="submit" class="modal-submit-btn">Send</button>
           </form>
         </div>
   </body>
