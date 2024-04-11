@@ -633,6 +633,7 @@ footer {
 }
 .ftr-subs-form {
   display: flex;
+  gap: 24px;
 }
 .ftr-label {
 }
@@ -663,7 +664,6 @@ footer {
 
 .ftr-btn {
   position: relative;
-  margin-left: 24px;
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
@@ -671,7 +671,7 @@ footer {
   background: #4d5ae5;
   color: #fff;
   text-align: left;
-  margin-left: 24px;
+  border: none;
 }
 .footer-icon {
   position: absolute;
