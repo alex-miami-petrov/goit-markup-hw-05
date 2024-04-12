@@ -879,14 +879,10 @@ footer {
 .span-check {
   display: inline-flex;
   margin-right: 8px;
-}
-
-.modal-label span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  /* display: inline-flex; */
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -930,7 +926,7 @@ footer {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
 } */
 
-.modal-check:checked + .modal-label span {
+.modal-check:checked + .modal-label .span-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
