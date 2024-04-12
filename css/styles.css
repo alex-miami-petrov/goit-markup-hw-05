@@ -876,6 +876,11 @@ footer {
   background-color: #404bbf;
 }
 
+.span-check {
+  display: inline-flex;
+  margin-right: 8px;
+}
+
 .modal-label span {
   width: 16px;
   height: 16px;
@@ -900,11 +905,6 @@ footer {
   align-items: center;
 
   margin-bottom: 24px;
-}
-
-.span-check {
-  display: inline-flex;
-  margin-right: 8px;
 }
 
 .policy-link {
