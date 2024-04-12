@@ -793,11 +793,15 @@ footer {
 
 .modal-input:focus + .modal-field-icon {
   fill: #4d5ae5;
-  border-color: #4d5ae5;
 }
 
 .modal-field {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 8px;
+}
+
+.modal-field:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-label {
